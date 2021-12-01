@@ -20,8 +20,8 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️WhatsMeenu Asena Modified✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Meenakshi AI.
-            *Developed my Vishnu Prasad*
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 Meenakshi AI.
+            *Remodified Version of WhatsAsena Duplicated*
 
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
@@ -133,10 +133,8 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
 🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
 ⚠️ex  attp meenu
-■□■□■□■□■□■□■□■□■□■□
-═════💢WhatsMeenu💢═════
-▣▣▣▣▣▣▣▣▣_wav_1▣▣▣▣▣▣▣▣▣▣▣
 
+Note : Be aware of some commands like  .ban , .add , .promote , .demote etc....If you tagged 2 or more users to use this command . Your whatsapp number may be Banned ! If your Number is banned...! You can easily Unban your number by contacting WhatsApp admin through Whatsapp support system
 `}) 
 
 }));
