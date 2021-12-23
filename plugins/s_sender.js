@@ -26,13 +26,13 @@ Asena.addCommand({on: 'text', fromMe: false, onlyPm: true, deleteCommand: false}
 
         if (message.reply_message.jid.endsWith('net')) {
 			if (message.reply_message.image) {
-            await message.client.sendMessage(message.jid,'Anthada status venow?',MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync(location), MessageType.image ,{caption: 'Take my status'  , mimetype: Mimetype.jpg, quoted: message.data,thumbnail: null});
+            await message.client.sendMessage(message.jid,' ```Please wait a bit``` ',MessageType.text);
+            await message.client.sendMessage(message.jid,fs.readFileSync(location), MessageType.image ,{caption: 'Kondu Pokko'  , mimetype: Mimetype.jpg, quoted: message.data,thumbnail: null});
 		return 
         }
        else if (message.reply_message.video) { 
-                await message.client.sendMessage(message.jid,'Anthada ente status venow?',MessageType.text);
-                await message.client.sendMessage(message.jid,fs.readFileSync(location), MessageType.video , {caption: 'Kondu poo'  , mimetype: Mimetype.mp4, quoted: message.data,thumbnail: null});
+                await message.client.sendMessage(message.jid,' ```Please wait a bit``` ',MessageType.text);
+                await message.client.sendMessage(message.jid,fs.readFileSync(location), MessageType.video , {caption: 'Kondu pookko'  , mimetype: Mimetype.mp4, quoted: message.data,thumbnail: null});
         return 
 	   }
 		}}}));
